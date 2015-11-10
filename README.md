@@ -22,12 +22,12 @@ format.printf('%% %s %d %f','hingsir',99,1.35)
 ```
 * date() 格式化日期
 ```
-format.formatDate(new Date,'yyyy-MM-dd hh:mm:ss')
+format.date(new Date,'yyyy-MM-dd hh:mm:ss')
 ```
 * template() 字符串模版，支持数组
 ```
 var tpl = 'name\n{{users.0.name}}\n{{users.1.name}}'
-var ret = format.formatTemplate(tpl,{
+var ret = format.template(tpl,{
     users:[
         {name:'hingsir'},{name:'chexingyou'}
     ]
