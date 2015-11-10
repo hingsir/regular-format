@@ -1,0 +1,23 @@
+{
+  "name": "regular-format",
+  "version": "1.0.0",
+  "description": "A fomat tool implemented by regular expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hingsir/regular-format.git"
+  },
+  "author": "hingsir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hingsir/regular-format/issues"
+  },
+  "homepage": "https://github.com/hingsir/regular-format#readme",
+  "dependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
