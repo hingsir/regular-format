@@ -26,15 +26,13 @@ format.printf('%% %s %d %f','hingsir',99,1.35)
 ```
 * formatTemplate()
 ```
-var tmpl = 'name : ${user.name}, home :${user.address.home},work at :${user.address.work}'
-var user = {
-    id: '1000',
-    name: 'hingsir',
-    address: {
-        home: 'china',
-        work: 'ZhuHai'
-    }
-}
+var tpl = 'name\n{{users.0.name}}\n{{users.1.name}}'
+var ret = format.formatTemplate(tpl,{
+    users:[
+        {name:'hingsir'},{name:'chexingyou'}
+    ]
+})
+console.log(ret)
 ```
 ## License
 

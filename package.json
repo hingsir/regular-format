@@ -1,6 +1,6 @@
 {
   "name": "regular-format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fomat tool implemented by regular expression",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "url": "https://github.com/hingsir/regular-format/issues"
   },
   "homepage": "https://github.com/hingsir/regular-format#readme",
+  "keywords": [
+    "regular",
+    "format"
+  ],
   "dependencies": {
     "mocha": "^2.3.3",
     "should": "^7.1.1"
