@@ -1,7 +1,7 @@
 {
   "name": "regular-format",
   "version": "1.0.1",
-  "description": "A fomat tool implemented by regular expression",
+  "description": "A format tool implemented by regular expression",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
