@@ -14,7 +14,7 @@ $ npm install regular-format --save
 
 require the format module
 ```
-var format = require('format.js')
+var format = require('regular-format')
 ```
 * formatDate()
 ```
