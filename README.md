@@ -12,29 +12,30 @@ $ npm install regular-format --save
 
 ## Usage
 
-####`require` the format module
+require the format module
 ```
-    var format = require('format.js')
+var format = require('format.js')
 ```
-####`formatDate()`
+* formatDate()
 ```
-    format.formatDate(new Date,'yyyy-MM-dd hh:mm:ss')
+format.formatDate(new Date,'yyyy-MM-dd hh:mm:ss')
 ```
-####`printf()`
+* printf()
 ```
-    format.printf('%% %s %d %f','hingsir',99,1.35)
+format.printf('%% %s %d %f','hingsir',99,1.35)
 ```
-####`formatTemplate()`
+* formatTemplate()
 ```
-    var tmpl = 'name : ${user.name}, home :${user.address.home},work at :${user.address.work}'
-    var user = {
-        id: '1000',
-        name: 'hingsir',
-        address: {
-            home: 'china',
-            work: 'ZhuHai'
-        }
+var tmpl = 'name : ${user.name}, home :${user.address.home},work at :${user.address.work}'
+var user = {
+    id: '1000',
+    name: 'hingsir',
+    address: {
+        home: 'china',
+        work: 'ZhuHai'
     }
+}
+```
 ## License
 
 Copyright © 2015 hingsir
